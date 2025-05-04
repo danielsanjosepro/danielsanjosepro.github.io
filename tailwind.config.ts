@@ -5,13 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)'],
       },
       colors: {
-        primary: '#FFDF65',
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        text: "var(--text)",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
