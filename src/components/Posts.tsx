@@ -13,7 +13,7 @@ export const Posts = () => {
                     transition={{ delay: 0.5, type: "spring", stiffness: 100 }}
                     className="w-full flex-none snap-center"
                 >
-                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7374008929858707457?collapsed=1" height="550" width="504" frameBorder="1" allowfullscreen="" title="Embedded post"></iframe>       <div className="mt-4" />
+                    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7374008929858707457?collapsed=1" height="550" width="504" frameBorder="1" allowFullScreen="" title="Embedded post"></iframe>       <div className="mt-4" />
                 </motion.div>
             </div>
         </div>
