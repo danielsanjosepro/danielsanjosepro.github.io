@@ -17,10 +17,9 @@ export const Intro = () => {
                 />
             </div>
             <div className="text-lg md:text-2xl text-text">
-                I am a master&apos;s student highly interested and talented in robotics.
-                My main domains of interest lie at the intersection of <b>Control Theory and Machine Learning</b>.
-                Additionally, I have experience working on larger robotics projects with <b>ROS2</b>.
-                I have a great overview of the technologies and tools needed to develop and research in the field of robotics. I am also a fast learner and I am always eager to learn new things.
+                Aspiring Robotics Engineer with a solid foundation in <b>ROS2, Python, and C++.</b>
+                Since 2021, I&apos;ve gained hands-on experience through research groups, startups, and leading European universities.
+                My core expertise lies in <b>robotic manipulation</b> using Universal Robots UR3 and Franka Emika FR3, as well as <b>mobile robot navigation</b>.
             </div>
         </div>
     );

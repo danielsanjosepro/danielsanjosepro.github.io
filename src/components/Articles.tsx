@@ -3,33 +3,34 @@ import { Article, ArticleProps } from "@/components/Article";
 import { motion } from "framer-motion";
 
 const articles: ArticleProps[] = [
-    {
-        image: "/images/article1.jpg",
-        title: "Article 1",
-        description: "This is a description for the first article. It talks about something interesting that you might want to read more about.",
-        date: "2022-01-01",
-        link: "https://example.com/article1",
-    },
-    {
-        image: "/images/article2.jpg",
-        title: "Article 2",
-        description: "Here&apos;s another fascinating article that covers different topics and provides valuable insights into the subject matter.",
-        date: "2022-02-15",
-        link: "https://example.com/article2",
-    },
-    {
-        image: "/images/article3.jpg",
-        title: "Article 3",
-        description: "The third article brings new perspectives and interesting discussions about various technological advancements.",
-        date: "2022-03-30",
-        link: "https://example.com/article3",
-    }
+    // {
+    //     image: "/images/article1.jpg",
+    //     title: "Article 1",
+    //     description: "This is a description for the first article. It talks about something interesting that you might want to read more about.",
+    //     date: "2022-01-01",
+    //     link: "https://example.com/article1",
+    // },
+    // {
+    //     image: "/images/article2.jpg",
+    //     title: "Article 2",
+    //     description: "Here&apos;s another fascinating article that covers different topics and provides valuable insights into the subject matter.",
+    //     date: "2022-02-15",
+    //     link: "https://example.com/article2",
+    // },
+    // {
+    //     image: "/images/article3.jpg",
+    //     title: "Article 3",
+    //     description: "The third article brings new perspectives and interesting discussions about various technological advancements.",
+    //     date: "2022-03-30",
+    //     link: "https://example.com/article3",
+    // }
 ];
 
 export const Articles = () => {
     return (
         <div>
             <h1 className="text-4xl font-bold text-secondary mb-2">Articles</h1>
+            <h2 className="text-2xl text-tertiary text-center mt-6"> ⏳ Work in progress! I am currently writing articles about my work and projects. Stay tuned! ⏳</h2>
             <div className="overflow-x-auto gap-6 md:grid md:grid-cols-3">
                 {articles.map((article: ArticleProps, index: number) => (
                     <motion.div

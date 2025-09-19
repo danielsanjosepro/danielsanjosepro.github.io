@@ -6,7 +6,7 @@ export const ContactMe = () => {
         <div>
             Contact me on{' '}
             <a
-                href="https://www.linkedin.com/in/daniel-san-jos%C3%A9-pro-0683441a5/"
+                href="https://www.linkedin.com/in/daniel-san-jose-pro"
                 className="text-secondary hover:underline"
             >
                 LinkedIn <FaLinkedin className="inline-block" />
