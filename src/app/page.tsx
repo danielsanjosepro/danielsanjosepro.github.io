@@ -8,6 +8,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Experience } from '@/components/Experience';
 import { Studies } from '@/components/Studies';
 import { Social } from '@/components/Social';
+import { Posts } from '@/components/Posts';
 import { useMotionValue } from 'framer-motion';
 
 export default function Home() {
@@ -80,7 +81,9 @@ export default function Home() {
       <main className='mx-auto md:w-[70%] w-full px-6 pt-10'>
         <ProfilePicture />
         <Intro />
-        <div className="mt-4" />
+        <div className="my-12" />
+        <Posts />
+        <div className="my-12 border-t border-gray-300 dark:border-white-700" />
         <Articles />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-12">
           <Experience />
