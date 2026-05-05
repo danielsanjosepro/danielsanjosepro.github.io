@@ -17,7 +17,7 @@ export const Intro = () => {
                 />
             </div>
             <div className="text-lg md:text-2xl text-text">
-                Aspiring Robotics Engineer with a solid foundation in <b>ROS2, Python, and C++.</b>
+                Robotics Engineer with a solid foundation in <b>ROS2, Python, and C++.</b>
                 Since 2021, I&apos;ve gained hands-on experience through research groups, startups, and leading European universities.
                 My core expertise lies in <b>robotic manipulation</b> using Universal Robots UR3 and Franka Emika FR3, as well as <b>mobile robot navigation</b>.
             </div>
